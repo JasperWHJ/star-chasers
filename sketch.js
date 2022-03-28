@@ -7,13 +7,13 @@ var gameState = "begin";
 var score = 0;
 
 function preload() {
-  rocketImg = loadImage("images/rocket.png");
-  starImg = loadImage("images/star.png");
-  asteroidImg = loadImage("images/asteroid.png");
+  rocketImg = loadImage("rocket.png");
+  starImg = loadImage("star.png");
+  asteroidImg = loadImage("asteroid.png");
 
-  starSnd = loadSound("sounds/star.mp3");
-  crashSnd = loadSound("sounds/crash.mp3");
-  music = loadSound("sounds/music.mp3");
+  starSnd = loadSound("star.mp3");
+  crashSnd = loadSound("crash.mp3");
+  music = loadSound("music.mp3");
 }
 
 function setup() {
